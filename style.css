@@ -34,6 +34,7 @@ body{
     padding: 50px 50px 50px 0;
     /* overflow: hidden;!pendiente de checar */
     border-radius: 20px;
+    position: relative;
 }
 
 .imagen{
@@ -55,10 +56,44 @@ body{
 
 .caja{
     position: absolute;
-    top: 210px;
-    left: -130px;
+    top: 170px;
+    left: -90px;
 }
 
 .lista{
     width: 450px;
 }
+
+.menu li{
+    list-style: none;
+}
+
+/* #menu>ul>li:hover{
+    display: none;
+} */
+
+.sub-item{
+    display: none;
+}
+
+.titulo-menu{
+    margin: 20px auto;
+    height: 30px;
+}
+
+.titulo-menu:hover{
+    color: var(--soft-red);
+    cursor: pointer;
+    display: block;
+    margin: auto auto;
+    height: auto;
+}
+
+
+.titulo-menu:hover .sub-item{
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+}
+
