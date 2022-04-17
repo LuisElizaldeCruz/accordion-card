@@ -16,7 +16,8 @@
 }
 
 body{
-    background-color: var(--Soft-violet);
+    /* background-color: var(--Soft-violet); */
+    background: linear-gradient(2deg, var(--Soft-blue) , var(--Soft-violet) );
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -52,6 +53,7 @@ body{
     left: -80px;
     top: 8px;
     height: 90%;
+    filter: drop-shadow(0px 30px 10px var(--Dark-grayish-blue));
 }
 
 .caja{
