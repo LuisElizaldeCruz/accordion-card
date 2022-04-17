@@ -26,7 +26,7 @@ body{
 
 .contenedor{
     background-color: var(--Light-grayish-blue);
-    width: 900px;
+    width: 850px;
     margin: auto;
     height: 350px;
     display: flex;
@@ -68,8 +68,11 @@ body{
     justify-content: space-between;
 }
 
+
+
 .menu li{
     list-style: none;
+    color: var(--Dark-grayish-blue);
 }
 
 
@@ -78,7 +81,7 @@ a{
 }
 
 a:visited{
-    color: black;
+    color: var(--Very-dark-grayish-blue);
 }
 
 .sub-item{
@@ -112,6 +115,7 @@ h3{
     border-bottom: 1px solid var(--Dark-grayish-blue);
     width: 400px;
     padding-bottom: 1px;
+    
     
 }
 
